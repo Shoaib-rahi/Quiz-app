@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background:linear-gradient(45deg , rgb(137, 137, 238),rgb(233, 131, 233)) ;
+}
+.quiz{
+    width: 750px;
+    height: 600px;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+     justify-content: space-around;
+}
+.quiz h2{
+    font-size: 2rem;
+    font-weight: bold;
+    
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+ul li{
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: max-content;
+    height: 50px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 0px 1rem;
+    gap: 40px;
+    border-radius: 50px;
+    border: 2px solid black;
+    font-weight: 400;
+}
+#submit{
+    padding: .8rem 2.5rem;
+    border: none;
+    outline: none;
+    background-color: #3498db;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.result{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    background: linear-gradient(45deg,#c7ecee,#686de0);
+    height: 100%;
+}
+.result h2{
+    font-size: 3vw;
+}
+.result h2 span{
+font-size: 2rem;
+font-weight: bold;
+color: #fff;
+padding: 0 1rem;
+}
+.result button{
+    padding: .8rem 2.5rem;
+    border: none;
+    outline: none;
+    background-color: #3498db;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 50px;
+    cursor: pointer;
+}
